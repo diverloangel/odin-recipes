@@ -17,10 +17,31 @@ body{
 
 .titulo{
     background: #c1e6fd;
-    padding: 25px;
+    padding-top: 5px;
     margin: -10px;
 
     /* border: #b7e3ff; */
+}
+.titulo li{
+    display:inline-block;
+}
+.titulo img{
+    /* padding: 20px; */
+    /* background-color: #ffffff; */
+    border-radius: 10px;
+    
+    margin: 0 0 10px 0;
+    vertical-align: middle;
+}
+.titulo #menu{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+    /* margin-top: -10px; */
+    font-size: 25px;
 }
 .titulo-underline{
     background:#a8deff;
@@ -28,10 +49,11 @@ body{
     margin-top: -3px;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .cards1 ul{
     margin-left: -40px;
+    
     /* list-style: none; */
 }
 .cards1 li{
@@ -43,8 +65,8 @@ body{
     padding-bottom: 30px;
     border-radius: 15px;
 
-    color:#FFA66F;
-    -webkit-text-stroke-color: #000000;
+    color:rgb(255, 255, 255);
+    -webkit-text-stroke-color: #00000000;
     -webkit-text-stroke-width: 0.5px;
     font-weight:bolder;
 
@@ -52,7 +74,7 @@ body{
 }
 .cards1 .text{
     font-size: 20px;
-    color:#000000;
+    color:#ffffff;
     -webkit-text-stroke-color: #00000000;
     -webkit-text-stroke-width: 0px;
     font-weight:bolder;
